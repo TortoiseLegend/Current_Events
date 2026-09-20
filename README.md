@@ -8,9 +8,9 @@ During a power outage, a limited backup supply may not support every desired dev
 
 ## Solution
 
-Current Events measures the current drawn by three LED-and-resistor branches, compares their combined demand with a user-selected budget, and automatically disconnects lower-priority loads when necessary.
+Current Events measures the current drawn by electrical loads, compares their combined demand with a user-selected budget, and automatically disconnects lower-priority loads when necessary.
 
-The LEDs represent household devices. Current measurement and switching occur on the physical circuit.
+For this demonstration, LEDs represent household devices. Current measurements and switching occur on the physical circuit.
 
 ## How it works
 
