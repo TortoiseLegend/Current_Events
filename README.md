@@ -35,3 +35,10 @@ The LEDs represent household devices. Current measurement and switching occur on
 The budget applies to the three load branches, not the total consumption of the board and display. It is a software-defined limit; adjusting it does not change the USB supply’s physical capacity.
 
 The prototype demonstrates priority-based control of small DC loads. It does not switch household mains appliances or replace electrical protection. Restoration uses estimated demand, so a restored load is measured again to check whether it fits within the budget.
+
+## Materials and IDE Used in Prototype
+- Arduino Uno
+- Wires, LEDS, 1 kΩ resistors
+- Rotary encoder
+- OLED
+- Arduino IDE (U8g2 external library used)
