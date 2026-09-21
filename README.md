@@ -20,7 +20,7 @@ For this demonstration, LEDs represent household devices. Current measurements a
 - Branch currents are calculated using **I = V/R** and added up.
 - If total current exceeds the budget, the controller switches off one active load at a time, starting with the lowest priority, and measures again.
 - When sufficient capacity becomes available, the controller can restore loads using their remembered operating currents, a waiting period, and an additional current margin.
-- An OLED displays measured currents, the budget, and commanded load states.
+- An OLED displays measured currents, the budget, and commanded load states real time.
 
 ## Load priorities
 
