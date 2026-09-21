@@ -41,4 +41,4 @@ The prototype demonstrates priority-based control of small DC loads. It does not
 - Wires, LEDS, 1 kΩ resistors
 - Rotary encoder
 - OLED
-- Arduino IDE (U8g2 external library used)
+- Arduino IDE
