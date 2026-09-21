@@ -38,7 +38,7 @@ The prototype demonstrates priority-based control of small DC loads. It does not
 
 ## Materials and IDE Used in Prototype
 - Arduino Uno
-- Wires, LEDS, 1 kΩ resistors
+- Wires, LEDS, 1 kΩ resistors, breadboard
 - Rotary encoder
 - OLED
 - Arduino IDE
