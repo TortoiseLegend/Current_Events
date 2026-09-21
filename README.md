@@ -20,7 +20,7 @@ For this demonstration, LEDs represent household devices. Current measurements a
 - Branch currents are calculated using **I = V/R** and added up.
 - If total current exceeds the budget, the controller switches off one active load at a time, starting with the lowest priority, and measures again.
 - When sufficient capacity becomes available, the controller can restore loads using their remembered operating currents, a waiting period, and an additional current margin.
-- An OLED displays measured currents, the budget, and commanded load states real time.
+- An OLED displays measured currents, the budget, and total load real time.
 
 ## Load priorities
 
@@ -32,9 +32,9 @@ For this demonstration, LEDs represent household devices. Current measurements a
 
 ## Prototype scope
 
-The budget applies to the three load branches, not the total consumption of the board and display. It is a software-defined limit; adjusting it does not change the USB supply’s physical capacity.
+The budget applies to the three load branches (the board and display's current is ignored).
 
-The prototype demonstrates priority-based control of small DC loads. It does not switch household mains appliances or replace electrical protection. Restoration uses estimated demand, so a restored load is measured again to check whether it fits within the budget.
+The prototype demonstrates priority-based control of small DC loads. It does not switch household mains appliances or replace electrical protection. When restoring a load, demand is estimated and thus a restored load is remeasured to check whether it fits within the budget.
 
 ## Materials and IDE Used in Prototype
 - Arduino Uno
